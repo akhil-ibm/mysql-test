@@ -9,7 +9,7 @@ app = Flask(__name__)
 def sample():
 
     # Replace these values with your actual database information
-    host = "mysql-openshift.mysql-test.svc.cluster.local:80"
+    host = "mysql-openshift.mysql-test.svc.cluster.local"
     user = "user1"
     password = "mypa55"
     database = "testdb"
